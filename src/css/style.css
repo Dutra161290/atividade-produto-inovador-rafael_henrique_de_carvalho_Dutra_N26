@@ -1,0 +1,160 @@
+*{
+    margin: 0; padding: 0; box-sizing: border-box
+}
+
+html{scroll-behavior: smooth;}
+
+body {
+    background-color: #f8ede0; 
+    color: #c84f4f;
+    font-family: "Noto Sans", sans-serif;
+    line-height: 1.6 ;
+}
+
+.video_game,header{
+    background-color: #facbc2;
+    text-align: center;
+    padding: 1rem;
+}
+
+
+Nav, footer {
+    background-color: #d74910; 
+    color: #fdfaf6;
+    padding: 15px;
+    text-align: center;
+}
+
+img{
+    
+    max-width: 100%;
+}
+
+h1  , h2 + p, h2,  h3{
+    color: #673229; 
+}
+
+
+nav ul {
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 3rem;
+}
+
+nav a {
+    color: #fdfaf6;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+
+
+main {
+    padding: 1rem;
+}
+
+section {
+    background-color: white;
+    margin-bottom: 2rem;
+    padding: 2rem;
+    border: 1px solid #D7CCC8; 
+
+}
+
+
+aside {
+    background-color: #EFEBE9; 
+    padding: 15px;
+    border-left: 4px solid #d74910; 
+    text-align: left;
+    padding-left: 3rem;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border:2rem solid ;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #D7CCC8;
+    border: 1px solid black;
+}
+
+th {
+    background-color: #d74910; 
+    color: white;
+}
+
+
+form {
+    background-color: white;
+    padding: 30px;
+    width: 350px;
+    margin: 30px auto;
+    border: 1px solid #D7CCC8;
+}
+
+input {
+    width: 90%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #d74910;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    width: 98%;
+    font-size: 16px;
+
+
+}
+
+
+p {
+    text-align: center;
+}
+
+th {
+background-color: #d74910;
+font-weight: bold;
+}
+
+tbody tr:nth-child(even) {
+background-color: #f9f9f9; 
+}
+
+
+#hero{
+    max-width: 100%
+}
+
+div{
+    text-align: center;
+}
+
+
+aside > a {/* Estilo base para todos os links */
+color: #007bff;
+text-decoration: none; /* Remove o sublinhado */
+}
+ aside> a:visited {
+color: #6a0572; /* Roxo para links já visitados */
+}
+aside > a:hover {
+color: #0056b3;
+text-decoration: underline; /* Adiciona sublinhado apenas no hover */
+}
+aside> a:active {
+color: red; /* Vermelho enquanto o link está sendo pressionado */
+}
